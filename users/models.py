@@ -17,7 +17,7 @@ class GenerateProfileImagePath(object):
         path = f'media/accounts/{instance.user.id}/images/'
         name = f'profile_image.{ext}'
         return os.path.join(path, name)
-    
+     
 
 user_profile_image_path = GenerateProfileImagePath()
 
